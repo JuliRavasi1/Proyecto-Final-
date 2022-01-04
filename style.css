@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* inicio header y nav  */
+
+header{
+    background-color: #73261F;
+}
+
+header img{
+    padding-top: 1%;
+    position: relative;
+    text-align: left;
+}
+
+header h1{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -65px;
+    font-family: serif;
+}
+
+.titulo:hover{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #73261F;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+li a{
+    color: #fff;
+    transition: all 0.6s ease;
+}
+
+li a:hover{
+    transform: scale(1.4);
+    color: #fff;
+}
+
+/* fin header y nav  */
+
+/* h2 todos */
+
+h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: serif;
+}
+
+/* inicio footer */
+
+footer{
+    background-color: #73261F;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: left;
+    height: auto;
+    padding-left: 1%;
+    color: black;
+}
+
+/* inicio index */
+
+.jumbotron{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    border-radius: 0;
+    color: #fff;
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-family: 'Merriweather', serif;
+}
+
+.display-4{
+    text-shadow: 2px 0px black;
+}
+
+.texto{
+    margin-bottom: 4%;
+}
+
+.boton{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+.boton:hover{
+    background-color: #73261F;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* fin index */
+
+/* inicio de adventures */
+
+.fondo{
+    background-color: #A6A6A6;
+    margin: 0;
+}
+
+.carousel{ 
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h5{
+    text-shadow: 2px 2px  black;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+/* fin de adventures */
+
+/* inicio trips */
+
+.trip__main{
+    background-color: #A6A6A6;
+}
+
+#cards{
+    width: 100%;
+    max-width: 1200px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#cards .sitios{ 
+    width: 330px;
+    height: 450px;
+    overflow: hidden;
+    margin: 20px;
+    padding-top: 2%;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #73261f5b;
+    border-radius: 5px;
+    color: white;
+}
+
+#cards .sitios:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cards .sitios img{
+    width: 200px;
+    height: 250px;
+}
+
+#cards .sitios h4{
+    color: white;
+    font-size: 36px;
+    font-family: serif;
+}
+
+.sitios p{
+    padding: 5px;
+}
+
+#terms{ 
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+}
+
+/* fin trips */
+
+/* inicio be a part */
+
+.beapart__main{
+    background-color: #A6A6A6;
+}
+
+form{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.form-group label{
+    color: #fff;
+}
+
+.form-check{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.custom-select{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.btn{
+    background-color: #73261F;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 8%;
+    transition: all 0.6s ease;
+    margin-left: 42%;
+}
+
+.btn1{
+    margin-right: 0%;
+}
+
+.btn2{
+    margin-left: 1%;
+}
+
+.btn:hover{
+    background-color: #73261F;
+    border: none;
+    transform: scale(1.2);
+}
+
+/* fin de ba a part */
