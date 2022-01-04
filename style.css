@@ -248,7 +248,7 @@ form{
 .btn:hover{
     background-color: #73261F;
     border: none;
-    transform: scale(1.2);
+    transform: scale(1.2); 
 }
 
 /* fin de ba a part */
