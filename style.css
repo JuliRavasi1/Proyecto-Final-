@@ -45,6 +45,22 @@ li a:hover{
     color: #fff;
 }
 
+@media only screen and (min-width: 590px) and (max-width: 770px){
+    .nav{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 558px) and (max-width: 589px){
+    .nav{
+        font-size: 14px;
+    }
+
+    .nav-item{
+        gap: -15px;
+    }
+}
+
 /* fin header y nav  */
 
 /* h2 todos */
@@ -67,6 +83,7 @@ footer{
     height: auto;
     padding-left: 1%;
     color: black;
+    margin-bottom: 0;
 }
 
 /* inicio index */
@@ -196,9 +213,9 @@ h5{
 
 /* fin trips */
 
-/* inicio be a part */
+/* inicio join us */
 
-.beapart__main{
+.joinus__main{
     background-color: #A6A6A6;
 }
 
@@ -251,4 +268,4 @@ form{
     transform: scale(1.2); 
 }
 
-/* fin de ba a part */
+/* fin de join us */
