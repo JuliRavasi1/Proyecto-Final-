@@ -229,6 +229,11 @@ form{
     color: #fff;
 }
 
+.form-control:focus{
+    border-color: #fff;
+    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+}
+
 .form-check{
     text-align: center;
     margin-bottom: 10px;
@@ -239,6 +244,11 @@ form{
     width: 30%;
     margin-left: 35%;
     margin-right: 35%;
+}
+
+.custom-select:focus{
+    border-color: #fff;
+    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
 }
 
 .btn{
@@ -268,4 +278,9 @@ form{
     transform: scale(1.2); 
 }
 
+.btn:focus{
+    border-color: #fff;
+    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+    background-color: #73261F;
+}
 /* fin de join us */
