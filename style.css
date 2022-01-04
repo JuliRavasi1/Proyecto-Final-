@@ -258,7 +258,7 @@ h5{
 }
 
 form{
-    width: 30%;
+    width: 50%;
 }
 
 .form-group label{
@@ -276,7 +276,7 @@ form{
 }
 
 .custom-select{
-    width: 30%;
+    width: 50%;
 }
 
 .custom-select:focus{
