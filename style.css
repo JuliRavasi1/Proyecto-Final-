@@ -392,8 +392,9 @@ form{
     padding: 1%;
 }
 
-.test1 p:nth-child(2){
-    font-weight: bolder;
+.test1 img{
+    width: 90px;
+    height: 90px;
 }
 
 .test2{
@@ -415,6 +416,8 @@ form{
     padding: 1%;
 }
 
-.test3 p:nth-child(2){
-    font-weight: bolder;
+.test3 img{
+    width: 90px;
+    height: 90px;
 }
+
