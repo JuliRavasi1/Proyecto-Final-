@@ -328,3 +328,25 @@ form{
     background-color: #73261F;
 }
 /* fin de join us */
+
+/* inicio de about us  */
+
+.aboutMain{
+    background-color: #A6A6A6;
+}
+
+.card{
+    background-color: #73261f5b;
+    padding: 1%;
+    width: 24rem;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.card img{
+    border-radius: 0;
+}
+
+.card-text{
+    text-align: center;
+}
