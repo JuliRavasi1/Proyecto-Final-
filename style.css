@@ -333,6 +333,7 @@ form{
 
 .aboutMain{
     background-color: #A6A6A6;
+    color: #fff;
 }
 
 .card{
@@ -350,3 +351,52 @@ form{
 .card-text{
     text-align: center;
 }
+
+.listaA{
+    text-align: center;
+    width: 25%;
+    border: 2px solid #73261f5b;
+    font-family: 'Merriweather', serif;
+}
+
+.testimonios{
+    width: 90%;
+    text-align: center;
+    background-color: #73261F;
+}
+
+.testimoniosS{
+    width: 90%;
+    text-align: center;
+}
+
+.test1{
+    width: 30%;
+    border: 2px solid #73261f5b;
+    padding: 1%;
+}
+
+.test1 p:nth-child(2){
+    font-weight: bolder;
+}
+
+.test2{
+    width: 30%;
+    border: 2px solid #73261f5b;
+    padding: 1%;
+}
+
+.test2 p:nth-child(2){
+    font-weight: bolder;
+}
+
+.test3{
+    width: 30%;
+    border: 2px solid #73261f5b;
+    padding: 1%;
+}
+
+.test3 p:nth-child(2){
+    font-weight: bolder;
+}
+
