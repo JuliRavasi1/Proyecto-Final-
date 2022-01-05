@@ -403,8 +403,9 @@ form{
     padding: 1%;
 }
 
-.test2 p:nth-child(2){
-    font-weight: bolder;
+.test2 img{
+    width: 90px;
+    height: 90px;
 }
 
 .test3{
