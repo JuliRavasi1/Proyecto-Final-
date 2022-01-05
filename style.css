@@ -336,6 +336,15 @@ form{
     color: #fff;
 }
 
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25%;
+    margin-bottom: 2%;
+}
+
 .card{
     background-color: #73261f5b;
     padding: 1%;
@@ -355,7 +364,8 @@ form{
 .listaA{
     text-align: center;
     width: 25%;
-    border: 2px solid #73261f5b;
+    padding: 1%;
+    border: 5px solid #73261f5b;
     font-family: 'Merriweather', serif;
 }
 
@@ -399,4 +409,3 @@ form{
 .test3 p:nth-child(2){
     font-weight: bolder;
 }
-
