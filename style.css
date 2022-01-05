@@ -198,8 +198,8 @@ h5{
 }
 
 #cards .sitios{ 
-    width: 330px;
-    height: 450px;
+    width: 360px;
+    height: 480px;
     overflow: hidden;
     margin: 20px;
     padding-top: 2%;
@@ -225,6 +225,7 @@ h5{
     color: white;
     font-size: 36px;
     font-family: serif;
+    padding-top: 8px;
 }
 
 .sitios p{
@@ -239,6 +240,27 @@ h5{
     margin-top: 10%;
     margin-bottom: 0%;
     padding-bottom: 1%;
+}
+
+.btnT{
+    text-decoration: none;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.btnT:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: none; 
 }
 
 /* fin trips */
