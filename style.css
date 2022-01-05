@@ -367,22 +367,33 @@ form{
     padding: 1%;
     border: 5px solid #73261f5b;
     font-family: 'Merriweather', serif;
+    border-radius: 5px;
 }
 
 .testimonios{
     width: 90%;
     text-align: center;
     background-color: #73261F;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-transform: uppercase;
+    margin-bottom: 2%;
 }
 
 .testimoniosS{
-    width: 90%;
+    width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
 }
 
 .test1{
-    width: 30%;
-    border: 2px solid #73261f5b;
+    width: 20%;
+    border: 5px solid #73261f5b;
+    border-radius: 5px;
     padding: 1%;
 }
 
@@ -391,8 +402,9 @@ form{
 }
 
 .test2{
-    width: 30%;
-    border: 2px solid #73261f5b;
+    width: 20%;
+    border: 5px solid #73261f5b;
+    border-radius: 5px;
     padding: 1%;
 }
 
@@ -401,8 +413,9 @@ form{
 }
 
 .test3{
-    width: 30%;
-    border: 2px solid #73261f5b;
+    width: 20%;
+    border: 5px solid #73261f5b;
+    border-radius: 5px;
     padding: 1%;
 }
 
