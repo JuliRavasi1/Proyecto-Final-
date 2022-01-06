@@ -354,8 +354,12 @@ form{
     box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
 }
 
-.form-check{
-    margin-bottom: 10px;
+fieldset{
+    border: 2px solid #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
     color: #fff;
 }
 
