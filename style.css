@@ -410,16 +410,25 @@ form{
 
 .media img{
     border-radius: 0px;
-    width: 700px;
-    height: 500px;
-    padding-left: 2%;
+    width: 48%;
+    padding-left: 5%;
+    padding-right: 6%;
 }
 
 .media-body{
     text-align: center;
+    width: 48%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.titulo1{
     padding-top: 8%;
-    padding-right: 2%;
-    padding-left: 2%;
+}
+
+.textO{
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 .testimonios{
