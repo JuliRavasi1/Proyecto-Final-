@@ -2,37 +2,37 @@
 
 /* inicio header y nav  */
 
-header{
-    background-color: #73261F;
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-header img{
-    padding-top: 1%;
-    position: relative;
-    text-align: left;
+nav a img{
+    margin-right: -10%;
 }
 
-header h1{
-    font-size: 28px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.658);
-    margin: 0;
-    z-index: 1;
-    position: relative;
-    text-align: left;
-    padding-left: 20px;
-    margin-top: -65px;
-    font-family: serif;
+.navbar{
+    background-color: #73261F; 
+    font-size: 18px;
 }
 
-.titulo:hover{
-    text-decoration: none;
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.nav{
-    background-color: #73261F;
-    font-size: 24px;
-    font-family: sans-serif;
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: #fff;
+    font-size: 22px;
 }
 
 li a{
@@ -41,10 +41,16 @@ li a{
 }
 
 li a:hover{
-    transform: scale(1.4);
+    transform: scale(1.3);
     color: #fff;
 }
 
+.navbar-expand-lg .navbar-collapse{
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-right: 0;
+    padding-right: 0;
+}
 /* fin header y nav  */
 
 /* h2 todos */
@@ -63,61 +69,31 @@ h2{
 
 footer{
     background-color: #73261F;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 100%;
-    /* padding: 0;
-    margin: 0; */
 }
 
-footer p{
-    color: white;
-    padding-left: 2%;
+.rrssF{
+    width: 50%;
+    text-align: right;
+    padding: 2%;
 }
 
-.rrss{
-    width: 30%;
-}
-
-.rrss img{
-    width: 10%;
+.rrssF img{
+    width: 6%;
     height: auto;
-    padding-left: 0;
-    margin-left: 14%;
-}
-
-.formM{
-    align-items: center;
-    margin-left: 10%;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    color: #fff;
-    width: 90%;
-    text-align: center;
-}
-
-.btn2{
-    color: white;
-    font-size: 16px;
-    background-color: black;
-    text-decoration: none;
-    border: 0;
     padding: 1%;
-    text-transform: uppercase;
-    align-items: center;
+}
+.copyF{
+    color: #fff;
+    width: 50%;
+    text-align: left;
+    padding: 2%;
+    padding-top: 3%;
 }
 
-.btn2:hover{
-    background-color: black;
-    border: 0;
-}
-
-.btn2:focus{
-    border-color: #000;
-    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-    background-color: #000;
-}
+/* fin de footer  */
 
 /* inicio index */
 
@@ -425,6 +401,7 @@ fieldset{
     text-align: center;
     width: 48%;
     height: auto;
+    padding-left: 10%;
     margin-right: 2%;
 }
 
