@@ -298,9 +298,19 @@ fieldset{
     border: 2px solid #fff;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     margin-bottom: 2%;
     color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .mediaQ{
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        margin-bottom: 2%;
+        margin-left: -112%;
+    }
 }
 
 .custom-select{
@@ -435,7 +445,7 @@ fieldset{
 
 /* fin about us */
 
-/* inicio meedias */
+/* inicio meedias generales */
 
 @media (min-width: 700px) and (max-width: 940px){
     .rrssF img{
