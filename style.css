@@ -10,7 +10,11 @@ nav{
 }
 
 nav a img{
-    margin-right: -10%;
+    margin-left: -14%;
+}
+
+nav span{
+    margin-left: -10%;
 }
 
 .navbar{
