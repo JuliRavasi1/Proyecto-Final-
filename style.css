@@ -99,69 +99,6 @@ footer{
     padding-top: 3%;
 }
 
-@media (min-width: 700px) and (max-width: 940px){
-    .rrssF img{
-        width: 8%;
-        height: auto;
-        padding: 1%;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 699px){
-    .rrssF img{
-        width: 10%;
-        height: auto;
-        padding: 1%;
-    }
-}
-
-@media (min-width: 392px) and (max-width: 499px){
-    .rrssF img{
-        width: 10%;
-        height: auto;
-        padding: 1%;
-    }
-
-    .copyF{
-        width: 50%;
-        text-align: left;
-        font-size: 12px;
-        padding: 2%;
-        padding-top: 3%;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 391px){
-    .rrssF img{
-        width: 10%;
-        height: auto;
-        padding: 1%;
-    }
-
-    .copyF{
-        width: 50%;
-        text-align: left;
-        font-size: 12px;
-        padding: 2%;
-        padding-top: 3%;
-    }
-
-    nav a img{
-        width: 70px;
-        height: auto;
-    }
-
-    nav span{
-        font-size: 12px;
-    }
-
-    .display-4{
-        font-size: 26px;
-    }
-
-    
-}
-
 /* fin de footer  */
 
 /* inicio index */
@@ -206,49 +143,6 @@ footer{
     text-decoration: none;
     color: #fff;
 }
-
-/* @media only screen and (min-width: 590px) and (max-width: 770px){
-    .nav{
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width: 558px) and (max-width: 589px){
-    .nav{
-        font-size: 14px;
-    }
-
-    .nav-item{
-        gap: -15px;
-    }
-}
-
-@media only screen and (min-width: 353px) and (max-width: 557px){
-    .nav{
-        display: inline-block;
-        font-size: 16px;
-        text-align: right;
-        width: 100%;
-    }
-
-    header img{
-        padding-top: 20px;
-    }
-    
-}
-
-@media only screen and (min-width: 320px) and (max-width: 352px){
-    .nav{
-        display: inline-block;
-        font-size: 16px;
-        text-align: right;
-        width: 100%;
-    }
-
-    header img{
-        padding-top: 20px;
-    }
-} */
 
 /* fin index */
 
@@ -540,3 +434,82 @@ fieldset{
 }
 
 /* fin about us */
+
+/* inicio meedias */
+
+@media (min-width: 700px) and (max-width: 940px){
+    .rrssF img{
+        width: 8%;
+        height: auto;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 699px){
+    .rrssF img{
+        width: 10%;
+        height: auto;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 392px) and (max-width: 499px){
+    .rrssF img{
+        width: 10%;
+        height: auto;
+        padding: 1%;
+    }
+
+    .copyF{
+        width: 50%;
+        text-align: left;
+        font-size: 12px;
+        padding: 2%;
+        padding-top: 3%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 391px){
+    .rrssF img{
+        width: 10%;
+        height: auto;
+        padding: 1%;
+    }
+
+    .copyF{
+        width: 50%;
+        text-align: left;
+        font-size: 12px;
+        padding: 2%;
+        padding-top: 3%;
+    }
+
+    nav a img{
+        width: 70px;
+        height: auto;
+    }
+
+    nav span{
+        font-size: 12px;
+    }
+
+    .display-4{
+        font-size: 26px;
+    }
+
+    .texto{
+        padding-bottom: 20%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 385px){
+    .copyF{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 327px){
+    .copyF{
+        font-size: 8px;
+    }
+}
