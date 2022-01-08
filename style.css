@@ -536,6 +536,44 @@ fieldset{
     height: 90px;
 }
 
+@media (min-width:453px) and (max-width:843px){
+    .testimoniosS{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test1{
+        width: 50%;
+    }
+
+    .test2{
+        width: 50%;
+    }
+
+    .test3{
+        width: 50%;
+    }
+}
+
+@media (min-width:320px) and (max-width:453px){
+    .testimoniosS{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test1{
+        width: 60%;
+    }
+
+    .test2{
+        width: 60%;
+    }
+
+    .test3{
+        width: 60%;
+    }
+}
+
 /* fin about us */
 
 /* inicio medias generales */
