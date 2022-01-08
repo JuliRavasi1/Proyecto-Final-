@@ -150,26 +150,84 @@ footer{
 
 .mainAdv{
     height: 100%;
-}
-
-.fondo{
     background-color: #A6A6A6;
+}
+
+.gallery__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.gallery__item{
+    position: relative;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover; 
+}
+
+.gallery__title{
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(0,0,8,1));
+    width: 100%;
     margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
 }
 
-.carousel{ 
-    height: auto;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.gallery__item:nth-child(3){
+    grid-column-start: span 2;
 }
 
-h5{
-    text-shadow: 2px 2px  black;
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
+
+.gallery__item:nth-child(6){
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(11){
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(12){
+    grid-column-start: span 2;
+}
+
+
+@media (min-width:768px){
+    .gallery__container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (min-width:1024px){
+    .gallery__container{
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .gallery__item:nth-child(3){
+        grid-column-start: span 2;
+    }
+    
+    
+    .gallery__item:nth-child(6){
+        grid-column-start: span 2;
+    }
+    
+    .gallery__item:nth-child(11){
+        grid-column-start: span 3;
+        grid-row-start: span 2;
+    }
+    
+    .gallery__item:nth-child(12){
+        grid-column-start: span 2;
+    }
 }
 
 /* fin de adventures */
@@ -447,7 +505,7 @@ fieldset{
 
 /* fin about us */
 
-/* inicio meedias generales */
+/* inicio medias generales */
 
 @media (min-width: 700px) and (max-width: 940px){
     .rrssF img{
