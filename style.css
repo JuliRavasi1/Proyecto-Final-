@@ -394,6 +394,7 @@ fieldset{
     background-color: #73261F;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 5%;
     text-transform: uppercase;
     margin-bottom: 2%;
 }
@@ -405,7 +406,7 @@ fieldset{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 10%;
+    column-gap: 2%;
 }
 
 .test1{
