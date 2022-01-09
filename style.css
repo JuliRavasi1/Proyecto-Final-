@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Prompt:wght@200;600&display=swap');
 /* inicio header y nav  */
 
 nav{
@@ -65,8 +64,7 @@ h2{
     color: #fff;
     text-align: center;
     padding-top: 15px;
-    font-family: serif;
-}
+    font-family: 'Montserrat', sans-serif;}
 
 /* fin h2 todos */
 
@@ -115,20 +113,28 @@ footer{
     margin: 0;
     padding-top: 10%;
     padding-bottom: 10%;
-    font-family: 'Merriweather', serif;
 }
 
 .display-4{
     text-shadow: 2px 0px black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .texto{
     margin-bottom: 4%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+
+.lead{
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+
 }
 
 .boton{
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     background-color: black;
     border: none;
     border-radius: 0;
@@ -138,7 +144,7 @@ footer{
 }
 
 .boton:hover{
-    background-color: #73261F;
+    background-color: rgba(0, 0, 0, 0.56);
     border: none;
     text-decoration: none;
     color: #fff;
@@ -151,6 +157,16 @@ footer{
 .mainAdv{
     height: 100%;
     background-color: #A6A6A6;
+}
+
+.mainAdv h2{
+    padding-bottom: 2%;
+}
+
+.adventures__text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 .gallery__container{
@@ -240,6 +256,10 @@ footer{
     height: 100%;
 }
 
+.trip__main h2{
+    padding-bottom: 2%;
+}
+
 #cards{
     width: 100%;
     max-width: 1400px;
@@ -261,7 +281,6 @@ footer{
     transition: all 0.25s;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     background-color: #73261f5b;
-    border-radius: 5px;
     color: white;
 }
 
@@ -308,13 +327,13 @@ footer{
     border-radius: 0;
     border: none;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
 .btnT:hover{
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.56);
     border: none; 
 }
 
@@ -374,17 +393,8 @@ fieldset{
     }
 }
 
-.custom-select{
-    width: 50%;
-}
-
-.custom-select:focus{
-    border-color: #fff;
-    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-}
-
 .btn{
-    background-color: #73261F;
+    background-color: #000;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -395,14 +405,14 @@ fieldset{
 }
 
 .btn:hover{
-    background-color: #73261f91;
+    background-color: rgba(0, 0, 0, 0.562);
     border: none; 
 }
 
 .btn:focus{
     border-color: #fff;
     box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-    background-color: #73261F;
+    background-color: #000;
 }
 
 /* fin de join us */
