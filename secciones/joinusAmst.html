@@ -14,9 +14,10 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="../index.html"><img src="../img/mapa-logo.png" alt="logo" /> <span>Wanderlust</span></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/mapa-logo.png" alt="logo" />
+            <span>Wanderlust</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
                     <a class="nav-link" href="trips.html">Trips</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Adventures</a>
+                    <a class="nav-link" href="adventures.html">Adventures</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="joinus.html">Join Us</a>
@@ -42,63 +43,59 @@
         </div>
     </nav>
 
-    <main class="mainAdv">
-        <h2>Adventures</h2>
-        <p class="adventures__text">Here you can see some of the trips we had along this years, the groups of friends we made and the fun we had.</p>
-        <p class="adventures__text">Your picture could be here one day!!</p>
+    <main class="main__amst">
 
-        <div class="gallery__container">
-            <div class="gallery__item">
-                <img src="../img/primera.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Rio de Janeiro, Brazil</h3>
+        <div class="flex__amst">
+
+            <div class="img__form">
+                <h4 class="h4__form">Amsterdam</h4>
+                <br>
+                <img src="../img/amsterdam 2.jpg" alt="amsterdam"></img>
             </div>
-            <div class="gallery__item">
-                <img src="../img/segundaA.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Rio de Janerio, Brazil</h3>
+
+            <div class="formulario__amst">
+                <form>
+                    <div class="nombreAmst">
+                        <div class="contenedor__amst">
+                            <label for="">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="contenedor__amst">
+                            <label for="">Surname</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="contenedor__amst">
+                            <label for="">Age</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="contenedor__amst">
+                            <label for="">E-mail</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="genero">
+                        <fieldset>
+                            <legend>Gender</legend>
+                            <label> <input type="radio" name="genero" value="masculino">Men</label>
+                            <br>
+                            <label> <input type="radio" name="genero" value="femenino">Woman</label>
+                            <br>
+                            <label> <input type="radio" name="genero" value="notidentified">Not Identified</label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                        <input class="btn btn-primary" type="submit" value="SUBMIT">
+                    </div>
+                </form>
             </div>
-            <div class="gallery__item">
-                <img src="../img/quinta.jpg " alt="" class="gallery__img">
-                <h3 class="gallery__title">Ushuaia, Argentina</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/decima.jpg " alt="" class="gallery__img">
-                <h3 class="gallery__title">Amsterdam, Netherlands</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/novena.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Zurich, Switzerland</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/sexta.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Ushuaia, Argentina</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/96244c62-b818-402a-af37-d2cf8da72e4d.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Ushuaia, Argentina</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/cuarta.jpg " alt="" class="gallery__img">
-                <h3 class="gallery__title">San Diego, USA</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/octava.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Amsterdam, Netherlands</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/tercera.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Los Angeles, USA</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/septime.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Salta, Argentina</h3>
-            </div>
-            <div class="gallery__item">
-                <img src="../img/IMG_9847.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__title">Madrid, Spain</h3>
-            </div>
+
         </div>
-    </main>
 
+<p>If you book your trip to Amsterdam before 10/01/22 you will have a 10% discount on the total price!!</p>
+
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -116,7 +113,7 @@
     <div class="copyF">
         <p> Copyright © 2022, Wanderlust.</p>
     </div>
-    
+
     <div class="rrssF">
         <a href="https://www.instagram.com/juli_ravasi/" target="_blanck"><img src="../img/instagram.png"
                 alt="instagram"></a>
@@ -125,5 +122,7 @@
         <a href="#" target="_blank"><img class="wpp" src="../img/whatsapp.png" alt="whatsapp"></a>
         <a href="#" target="_blank"><img class="email" src="../img/email.png" alt="email"></a>
     </div>
-    
+
 </footer>
+
+</html>
