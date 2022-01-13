@@ -545,10 +545,7 @@ fieldset{
 }
 
 .test2{
-    width: 20%;
-    border: 5px solid #73261f5b;
-    border-radius: 5px;
-    padding: 1%;
+    @extend .test1;
 }
 
 .test2 img{
@@ -557,10 +554,7 @@ fieldset{
 }
 
 .test3{
-    width: 20%;
-    border: 5px solid #73261f5b;
-    border-radius: 5px;
-    padding: 1%;
+    @extend .test1;
 }
 
 .test3 img{
