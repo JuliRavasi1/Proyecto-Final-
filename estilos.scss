@@ -37,9 +37,7 @@ ul{
 }
 
 li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend ul;
 }
 
 span{
