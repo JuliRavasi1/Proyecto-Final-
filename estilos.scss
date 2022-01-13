@@ -162,7 +162,7 @@ footer{
 /* inicio de adventures */
 
 .mainAdv{
-    height: 100%;
+    @extend .mainIndex;
     background-color: #A6A6A6;
 }
 
@@ -262,7 +262,7 @@ footer{
 
 .trip__main{
     background-color: #A6A6A6;
-    height: 100%;
+    @extend .mainIndex;
 }
 
 .trip__main h2{
@@ -366,7 +366,7 @@ footer{
 
 .joinus__main{
     background-color: #A6A6A6;
-    height: 100%;
+    @extend .mainIndex;
 }
 
 form{
@@ -435,7 +435,7 @@ fieldset{
 .aboutMain{
     background-color: #A6A6A6;
     color: #fff;
-    height: 100%;
+    @extend .mainIndex;
 }
 
 .media img{
@@ -683,7 +683,7 @@ fieldset{
 
 .main__amst{
     background-color: #A6A6A6;
-    height: 100%;
+    @extend .mainIndex;
 }
 
 .flex__amst{
