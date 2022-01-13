@@ -190,10 +190,14 @@ footer{
     position: relative;
 }
 
+@mixin images ($width, $height, $object) {
+    object-fit: $object;
+    width: $width;
+    height: $height;
+}
+
 .gallery__img{
-    width: 100%;
-    height: 90%;
-    object-fit: cover; 
+    @include images(100%, 90% , cover );
 }
 
 .gallery__title{
@@ -269,15 +273,19 @@ footer{
     padding-bottom: 2%;
 }
 
+@mixin cards ($format, $wrap, $flow) {
+    overflow: $flow;
+    flex-wrap: $wrap;
+    display: $format;
+}
+
 #cards{
+    @include cards(flex, wrap, scroll);
     width: 100%;
     max-width: 1400px;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    overflow: scroll;
 }
 
 #cards .sitios{ 
