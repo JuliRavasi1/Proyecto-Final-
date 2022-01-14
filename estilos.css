@@ -127,20 +127,33 @@ footer {
   padding-bottom: 10%;
 }
 
-.jumbo-1 {
+.jumbo-56 {
   text-shadow: 2px 0px black;
   font-family: "Montserrat", sans-serif;
 }
 
-.jumbo-3 {
-  margin-bottom: 4%;
+.jumbo-18 {
+  font-style: italic;
+  font-family: "Prompt", sans-serif;
   font-size: 18px;
+}
+
+.jumbo-20 {
+  margin-bottom: 4%;
+  font-size: 20px;
   font-family: "Prompt", sans-serif;
 }
 
-.jumbo-2 {
-  font-style: italic;
-  font-family: "Prompt", sans-serif;
+.jumbo-56 {
+  font-size: 56px;
+}
+
+.jumbo-18 {
+  font-size: 18px;
+}
+
+.jumbo-20 {
+  font-size: 20px;
 }
 
 .boton {
