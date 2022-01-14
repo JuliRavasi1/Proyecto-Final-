@@ -153,7 +153,7 @@ footer {
 /* fin index */
 /* inicio de adventures */
 .mainAdv {
-  background-color: #A6A6A6;
+  background-color: #686565;
 }
 
 .mainAdv h2 {
@@ -243,7 +243,7 @@ footer {
 /* fin de adventures */
 /* inicio trips */
 .trip__main {
-  background-color: #A6A6A6;
+  background-color: #686565;
 }
 
 .trip__main h2 {
@@ -336,7 +336,7 @@ footer {
 /* fin trips */
 /* inicio join us */
 .joinus__main {
-  background-color: #A6A6A6;
+  background-color: #686565;
 }
 
 .contenedorForm {
@@ -363,11 +363,12 @@ footer {
 }
 
 fieldset {
+  margin-top: 2%;
   border: 2px solid #fff;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 6%;
   color: #fff;
 }
 
@@ -381,6 +382,7 @@ fieldset {
   }
 }
 .botonesA {
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -412,8 +414,12 @@ fieldset {
 /* fin de join us */
 /* inicio de about us  */
 .aboutMain {
-  background-color: #A6A6A6;
+  background-color: #686565;
   color: #fff;
+}
+
+.aboutMain h2 {
+  padding-bottom: 2%;
 }
 
 .media img {
@@ -509,6 +515,7 @@ fieldset {
 .test1 img, .test3 img, .test2 img {
   width: 90px;
   height: 90px;
+  margin-bottom: 15%;
 }
 
 @media (min-width: 453px) and (max-width: 843px) {
@@ -623,7 +630,11 @@ fieldset {
 /* fin de medias generales */
 /* join us amsterdam */
 .main__amst {
-  background-color: #A6A6A6;
+  background-color: #686565;
+}
+
+.main__amst h4 {
+  padding-bottom: 2%;
 }
 
 .flex__amst {
@@ -658,6 +669,11 @@ fieldset {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.genero label {
+  display: block;
+  margin-bottom: 2%;
 }
 
 form {

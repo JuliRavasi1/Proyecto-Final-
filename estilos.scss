@@ -3,7 +3,7 @@
 //variables
 
 $color1: #73261F;
-$color2: #A6A6A6;
+$color2: #686565;
 
 $fontsize1: 18px;
 $fontsize2: 22px;
@@ -175,7 +175,7 @@ $text: 56, 18, 20;
 
 .mainAdv{
     @extend .mainIndex;
-    background-color: #A6A6A6;
+    background-color: $color2;
 }
 
 .mainAdv h2{
@@ -281,7 +281,7 @@ $text: 56, 18, 20;
 /* inicio trips */
 
 .trip__main{
-    background-color: #A6A6A6;
+    background-color: $color2;
     @extend .mainIndex;
 }
 
@@ -380,7 +380,7 @@ $text: 56, 18, 20;
 
 /* inicio join us */
 .joinus__main{
-    background-color: #A6A6A6;
+    background-color: $color2;
     @extend .mainIndex;
 }
 
@@ -408,11 +408,12 @@ $text: 56, 18, 20;
 }
 
 fieldset{
+    margin-top: 2%;
     border: 2px solid #fff;
     text-align: center;
     align-items: center;
     justify-content: center; 
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     color: #fff;
 }
 
@@ -427,6 +428,7 @@ fieldset{
 }
 
 .botonesA{
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -460,9 +462,13 @@ fieldset{
 /* inicio de about us  */
 
 .aboutMain{
-    background-color: #A6A6A6;
+    background-color: $color2;
     color: #fff;
     @extend .mainIndex;
+}
+
+.aboutMain h2{
+    padding-bottom: 2%;
 }
 
 .media img{
@@ -561,6 +567,7 @@ fieldset{
 .test1 img{
     width: 90px;
     height: 90px;
+    margin-bottom: 15%
 }
 
 .test2{
@@ -696,8 +703,12 @@ fieldset{
 /* join us amsterdam */
 
 .main__amst{
-    background-color: #A6A6A6;
+    background-color: $color2;
     @extend .mainIndex;
+}
+
+.main__amst h4{
+    padding-bottom: 2%;
 }
 
 .flex__amst{
@@ -732,6 +743,11 @@ fieldset{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.genero label{
+    display: block;
+    margin-bottom: 2%;
 }
 
 form{
