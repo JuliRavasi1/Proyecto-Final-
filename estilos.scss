@@ -379,22 +379,22 @@ $text: 56, 18, 20;
 /* fin trips */
 
 /* inicio join us */
-
-.contenedorForm{
-    display: flex;
-    flex-direction: column;
-    border-radius: 0;
-    align-items: center;
-    justify-content: center;
-}
-
 .joinus__main{
     background-color: #A6A6A6;
     @extend .mainIndex;
 }
 
-form{
-    width: 50%;
+.contenedorForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    flex-direction: column;
+    border-radius: 0;
+    width: 100%; 
 }
 
 .form-group label{
@@ -426,12 +426,15 @@ fieldset{
     }
 }
 
+.botonesA{
+    text-align: center;
+}
+
 .btn{
     background-color: #000;
     color: #fff;
     border-radius: 0;
     border: none;
-    text-align: center;
     margin-bottom: 15px;
     margin-top: 15px;
     width: auto;

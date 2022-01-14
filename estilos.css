@@ -383,15 +383,15 @@ footer {
 
 /* fin trips */
 /* inicio join us */
+.joinus__main {
+  background-color: #A6A6A6;
+}
+
 .contenedorForm {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border-radius: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -400,12 +400,13 @@ footer {
           justify-content: center;
 }
 
-.joinus__main {
-  background-color: #A6A6A6;
-}
-
-form {
-  width: 50%;
+.row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0;
+  width: 100%;
 }
 
 .form-group label {
@@ -446,12 +447,15 @@ fieldset {
   }
 }
 
+.botonesA {
+  text-align: center;
+}
+
 .btn {
   background-color: #000;
   color: #fff;
   border-radius: 0;
   border: none;
-  text-align: center;
   margin-bottom: 15px;
   margin-top: 15px;
   width: auto;
