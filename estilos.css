@@ -127,29 +127,20 @@ footer {
   padding-bottom: 10%;
 }
 
-.jumbo-jumbo-1 {
-  color: #fff;
-}
-
-.jumbo-jumbo-2 {
-  color: #fff;
-}
-
-.jumbo-jumbo-3 {
-  color: #fff;
-}
-
 .jumbo-1 {
   text-shadow: 2px 0px black;
+  font-family: "Montserrat", sans-serif;
 }
 
 .jumbo-3 {
   margin-bottom: 4%;
   font-size: 18px;
+  font-family: "Prompt", sans-serif;
 }
 
 .jumbo-2 {
   font-style: italic;
+  font-family: "Prompt", sans-serif;
 }
 
 .boton {
@@ -180,7 +171,7 @@ footer {
   padding-bottom: 2%;
 }
 
-.adventures__text {
+.adventuresText-1, .adventuresText-2 {
   color: #fff;
   text-align: center;
   margin-bottom: 2%;
@@ -608,16 +599,6 @@ fieldset {
 }
 
 .test1 img, .test2 img, .test3 img {
-  width: 90px;
-  height: 90px;
-}
-
-.test2 img {
-  width: 90px;
-  height: 90px;
-}
-
-.test3 img {
   width: 90px;
   height: 90px;
 }
