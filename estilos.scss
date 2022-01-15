@@ -70,10 +70,12 @@ li a:hover{
 
 /* h2 todos */
 
-h2{
+.titulosPag{
+    font-size: 2rem;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
+    margin-top: 0;
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;}
 
@@ -217,6 +219,7 @@ $text: 56, 18, 20;
 }
 
 .gallery__title{
+    font-size: 1rem;
     position: absolute;
     color: #fff;
     font-family: 'Prompt', sans-serif;
@@ -224,7 +227,6 @@ $text: 56, 18, 20;
     margin: 0;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 16px;
 }
 
 .gallery__item:nth-child(3){
@@ -242,6 +244,12 @@ $text: 56, 18, 20;
 
 .gallery__item:nth-child(12){
     grid-column-start: span 2;
+}
+
+@media (min-width: 320px) and (max-width:424px){
+    .gallery__title{
+        font-size: .75rem;
+    }
 }
 
 
@@ -285,10 +293,6 @@ $text: 56, 18, 20;
     @extend .mainIndex;
 }
 
-.trip__main h2{
-    padding-bottom: 2%;
-}
-
 @mixin cards ($format, $wrap, $flow) {
     overflow: $flow;
     flex-wrap: $wrap;
@@ -328,9 +332,9 @@ $text: 56, 18, 20;
     height: 250px;
 }
 
-#cards .sitios h4{
+#cards .sitios h2{
     color: white;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: serif;
     padding-top: 8px;
 }
@@ -417,16 +421,6 @@ fieldset{
     color: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    .mediaQ{
-        text-align: center;
-        align-items: center;
-        justify-content: center; 
-        margin-bottom: 2%;
-        margin-left: -112%;
-    }
-}
-
 .botonesA{
     margin-top: 5%;
     text-align: center;
@@ -493,7 +487,8 @@ fieldset{
     font-size: 20px;
 }
 
-.media h5{
+.media h2{
+    font-size: 1.25rem;
     font-style: italic;
     text-shadow: 2px 2px black;
 }
@@ -545,6 +540,7 @@ fieldset{
     margin-top: 5%;
     text-transform: uppercase;
     margin-bottom: 2%;
+    font-size: 1.5rem;
 }
 
 .testimoniosS{
@@ -711,9 +707,10 @@ fieldset{
     padding-bottom: 2%;
 }
 
-.flex__amst{
+.row{
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -729,20 +726,25 @@ fieldset{
     width: 250px;
 }
 
-.h4__form{
+.h1__form{
+    font-size: 1.125rem;
     font-family: 'Prompt', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
 }
 
 .formulario__amst{
     width: 30%;
-    padding: 2%;
     color: #fff;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.contenedor__amst{
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
 }
 
 .genero label{
