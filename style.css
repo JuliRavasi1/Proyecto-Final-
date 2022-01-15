@@ -629,7 +629,7 @@ fieldset {
   background-color: #686565;
 }
 
-.main__amst h4 {
+.main__amst h1 {
   padding-bottom: 2%;
 }
 
@@ -639,7 +639,6 @@ fieldset {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .img__form {
@@ -660,6 +659,7 @@ fieldset {
 }
 
 .formulario__amst {
+  margin-top: 5%;
   width: 30%;
   color: #fff;
   align-items: center;
@@ -678,6 +678,10 @@ fieldset {
   margin-bottom: 2%;
 }
 
+.genero fieldset {
+  margin-left: 4%;
+}
+
 form {
   width: 100%;
 }
@@ -689,6 +693,36 @@ form {
   font-family: "Prompt", sans-serif;
   padding: 1%;
   font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__amst h1 {
+    text-align: center;
+  }
+
+  .img__form img {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .formulario__amst {
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .main__amst p {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
