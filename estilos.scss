@@ -613,29 +613,29 @@ fieldset{
 /* inicio medias generales */
 
 @media (min-width: 700px) and (max-width: 940px){
-    .rrssF img{
-        width: 8%;
+    .rrssHome img{
+        width: 35;
         height: auto;
         padding: 1%;
     }
 }
 
 @media (min-width: 500px) and (max-width: 699px){
-    .rrssF img{
-        width: 10%;
+    .rrssHome img{
+        width: 30px;
         height: auto;
         padding: 1%;
     }
 }
 
 @media (min-width: 392px) and (max-width: 499px){
-    .rrssF img{
-        width: 10%;
+    .rrssHome img{
+        width: 30px;
         height: auto;
         padding: 1%;
     }
 
-    .copyF{
+    .copyHome{
         width: 50%;
         text-align: left;
         font-size: 12px;
@@ -645,16 +645,16 @@ fieldset{
 }
 
 @media (min-width: 320px) and (max-width: 391px){
-    .rrssF img{
-        width: 10%;
+    .rrssHome img{
+        width: 20px;
         height: auto;
         padding: 1%;
     }
 
-    .copyF{
+    .copyHome{
         width: 50%;
         text-align: left;
-        font-size: 12px;
+        font-size: 10px;
         padding: 2%;
         padding-top: 3%;
     }
@@ -678,13 +678,13 @@ fieldset{
 }
 
 @media (min-width: 320px) and (max-width: 385px){
-    .copyF{
+    .copyHome{
         font-size: 10px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 327px){
-    .copyF{
+    .copyHome{
         font-size: 8px;
     }
 }
