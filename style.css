@@ -89,17 +89,17 @@ li a:hover {
 }
 
 .jumbotron {
-  background-image: url(img/background.jpg);
+  background-image: url(img/backgroungHome.jpg);
   background-size: cover;
   border-radius: 0;
-  color: #fff;
+  color: #000;
   margin: 0;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
 .jumbo-56 {
-  text-shadow: 2px 0px black;
+  text-shadow: 2px 0px rgba(66, 63, 63, 0.61);
   font-family: "Montserrat", sans-serif;
 }
 
