@@ -121,29 +121,30 @@ li a:hover{
     padding-bottom: 10%;
 }
 
-.jumbo-56{
+.jumbo-font56{
     text-shadow: 3px 1px #000;
     font-family: $fontfamily1;
 }
 
-.jumbo-18{
+.jumbo-font18{
     text-shadow: 2px 1px #000;
     font-style: italic;
     font-family: $fontfamily2;
-    font-size: $fontsize1;
 }
 
-.jumbo-20{
+.jumbo-font20{
     text-shadow: 2px 1px #000;
     margin-bottom: 4%;
-    font-size: $fontsize3;
-    font-family: $fontfamily2;
 }
 
-$text: 56, 18, 20;
+$text: (
+    font56: 80, 
+    font18: 30,
+    font20: 26,
+);
 
-@each $size in $text{
-    .jumbo-#{$size}{
+@each $font, $size in $text{
+    .jumbo-#{$font}{
         font-size: $size * 1px;
     }
 }
@@ -216,7 +217,7 @@ $text: 56, 18, 20;
 }
 
 .gallery__img{
-    @include images(100%, 90% , cover);
+    @include images(100%, 90%, cover);
 }
 
 .gallery__title{

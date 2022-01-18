@@ -69,46 +69,44 @@ li a:hover {
 
 /* fin header y nav  */
 /* h2 todos */
-h2 {
+.titulosPag {
+  font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+  margin-top: 0;
   padding-top: 15px;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* fin h2 todos */
 /* inicio footer */
-footer {
-  background-color: #73261F;
-  width: 100%;
+.footerHome {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #73261F;
 }
 
-.rrssF {
-  width: 50%;
-  text-align: right;
-  padding: 2%;
-}
-
-.rrssF img {
-  width: 6%;
-  height: auto;
-  padding: 1%;
-}
-
-.copyF {
+.copyHome {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
-  width: 50%;
-  text-align: left;
+  padding-top: 2%;
+}
+
+.rrssHome img {
+  width: 40px;
+  height: auto;
   padding: 2%;
-  padding-top: 3%;
 }
 
 /* fin de footer  */
@@ -118,7 +116,7 @@ footer {
 }
 
 .jumbotron {
-  background-image: url(img/background.jpg);
+  background-image: url(img/backgroungHome.jpg);
   background-size: cover;
   border-radius: 0;
   color: #fff;
@@ -127,33 +125,32 @@ footer {
   padding-bottom: 10%;
 }
 
-.jumbo-56 {
-  text-shadow: 2px 0px black;
+.jumbo-font56 {
+  text-shadow: 3px 1px #000;
   font-family: "Montserrat", sans-serif;
 }
 
-.jumbo-18 {
+.jumbo-font18 {
+  text-shadow: 2px 1px #000;
   font-style: italic;
   font-family: "Prompt", sans-serif;
-  font-size: 18px;
 }
 
-.jumbo-20 {
+.jumbo-font20 {
+  text-shadow: 2px 1px #000;
   margin-bottom: 4%;
-  font-size: 20px;
-  font-family: "Prompt", sans-serif;
 }
 
-.jumbo-56 {
-  font-size: 56px;
+.jumbo-font56 {
+  font-size: 80px;
 }
 
-.jumbo-18 {
-  font-size: 18px;
+.jumbo-font18 {
+  font-size: 30px;
 }
 
-.jumbo-20 {
-  font-size: 20px;
+.jumbo-font20 {
+  font-size: 26px;
 }
 
 .boton {
@@ -172,6 +169,13 @@ footer {
   border: none;
   text-decoration: none;
   color: #fff;
+}
+
+.boton:focus {
+  border-color: #fff;
+  -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+          box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+  background-color: rgba(0, 0, 0, 0.56);
 }
 
 /* fin index */
@@ -214,6 +218,7 @@ footer {
 }
 
 .gallery__title {
+  font-size: 1rem;
   position: absolute;
   color: #fff;
   font-family: 'Prompt', sans-serif;
@@ -221,7 +226,6 @@ footer {
   margin: 0;
   padding-bottom: 5px;
   padding-top: 5px;
-  font-size: 16px;
 }
 
 .gallery__item:nth-child(3) {
@@ -242,6 +246,12 @@ footer {
 .gallery__item:nth-child(12) {
   -ms-grid-column: span 2;
       grid-column-start: span 2;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .gallery__title {
+    font-size: .75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -280,10 +290,6 @@ footer {
 /* inicio trips */
 .trip__main {
   background-color: #686565;
-}
-
-.trip__main h2 {
-  padding-bottom: 2%;
 }
 
 #cards {
@@ -330,9 +336,9 @@ footer {
   height: 250px;
 }
 
-#cards .sitios h4 {
+#cards .sitios h2 {
   color: white;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: serif;
   padding-top: 8px;
 }
@@ -372,6 +378,7 @@ footer {
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.56);
   border: none;
+  color: #fff;
 }
 
 .btnT:focus {
@@ -388,10 +395,13 @@ footer {
 }
 
 .contenedorForm {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -400,13 +410,8 @@ footer {
           justify-content: center;
 }
 
-.row {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border-radius: 0;
-  width: 100%;
+#formJoin {
+  width: 50%;
 }
 
 .form-group label {
@@ -421,6 +426,10 @@ footer {
 }
 
 fieldset {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 2%;
   border: 2px solid #fff;
   text-align: center;
@@ -434,23 +443,14 @@ fieldset {
   color: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .mediaQ {
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 2%;
-    margin-left: -112%;
-  }
+#genero label {
+  display: block;
 }
 
 .botonesA {
   margin-top: 5%;
   text-align: center;
+  color: #fff;
 }
 
 .btn {
@@ -466,6 +466,7 @@ fieldset {
 .btn:hover {
   background-color: rgba(0, 0, 0, 0.562);
   border: none;
+  color: #fff;
 }
 
 .btn:focus {
@@ -473,10 +474,6 @@ fieldset {
   -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
           box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
   background-color: #000;
-}
-
-.row {
-  width: 50%;
 }
 
 /* fin de join us */
@@ -525,7 +522,8 @@ fieldset {
   font-size: 20px;
 }
 
-.media h5 {
+.media h2 {
+  font-size: 1.25rem;
   font-style: italic;
   text-shadow: 2px 2px black;
 }
@@ -592,6 +590,7 @@ fieldset {
   margin-top: 5%;
   text-transform: uppercase;
   margin-bottom: 2%;
+  font-size: 1.5rem;
 }
 
 .testimoniosS {
@@ -672,47 +671,47 @@ fieldset {
 /* fin about us */
 /* inicio medias generales */
 @media (min-width: 700px) and (max-width: 940px) {
-  .rrssF img {
-    width: 8%;
+  .rrssHome img {
+    width: 35;
     height: auto;
     padding: 1%;
   }
 }
 
 @media (min-width: 500px) and (max-width: 699px) {
-  .rrssF img {
-    width: 10%;
+  .rrssHome img {
+    width: 30px;
     height: auto;
     padding: 1%;
   }
 }
 
 @media (min-width: 392px) and (max-width: 499px) {
-  .rrssF img {
-    width: 10%;
+  .rrssHome img {
+    width: 30px;
     height: auto;
     padding: 1%;
   }
-  .copyF {
+  .copyHome {
     width: 50%;
     text-align: left;
-    font-size: 12px;
+    font-size: 10px;
     padding: 2%;
     padding-top: 3%;
   }
 }
 
 @media (min-width: 320px) and (max-width: 391px) {
-  .rrssF img {
-    width: 10%;
+  .rrssHome img {
+    width: 20px;
     height: auto;
     padding: 1%;
   }
-  .copyF {
+  .copyHome {
     width: 50%;
     text-align: left;
-    font-size: 12px;
-    padding: 2%;
+    font-size: 10px;
+    padding: 1%;
     padding-top: 3%;
   }
   nav a img {
@@ -731,13 +730,13 @@ fieldset {
 }
 
 @media (min-width: 320px) and (max-width: 385px) {
-  .copyF {
+  .copyHome {
     font-size: 10px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 327px) {
-  .copyF {
+  .copyHome {
     font-size: 8px;
   }
 }
@@ -748,22 +747,25 @@ fieldset {
   background-color: #686565;
 }
 
-.main__amst h4 {
+.main__amst h1 {
   padding-bottom: 2%;
 }
 
-.flex__amst {
+.row {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
 .img__form {
@@ -777,16 +779,16 @@ fieldset {
   width: 250px;
 }
 
-.h4__form {
+.h1__form {
+  font-size: 1.125rem;
   font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
 }
 
 .formulario__amst {
+  margin-top: 5%;
   width: 30%;
-  padding: 2%;
   color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -797,9 +799,23 @@ fieldset {
   text-align: center;
 }
 
+.contenedor__amst {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3%;
+}
+
 .genero label {
   display: block;
   margin-bottom: 2%;
+}
+
+.genero fieldset {
+  margin-left: 4%;
 }
 
 form {
@@ -813,5 +829,48 @@ form {
   font-family: 'Prompt', sans-serif;
   padding: 1%;
   font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__amst h1 {
+    text-align: center;
+  }
+  .img__form img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .formulario__amst {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .main__amst p {
+    font-size: 16px;
+  }
+}
+
+.mainInfo {
+  background-color: #686565;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -98,35 +98,32 @@ li a:hover {
   padding-bottom: 10%;
 }
 
-.jumbo-56 {
+.jumbo-font56 {
   text-shadow: 3px 1px #000;
   font-family: "Montserrat", sans-serif;
 }
 
-.jumbo-18 {
+.jumbo-font18 {
   text-shadow: 2px 1px #000;
   font-style: italic;
   font-family: "Prompt", sans-serif;
-  font-size: 18px;
 }
 
-.jumbo-20 {
+.jumbo-font20 {
   text-shadow: 2px 1px #000;
   margin-bottom: 4%;
-  font-size: 20px;
-  font-family: "Prompt", sans-serif;
 }
 
-.jumbo-56 {
-  font-size: 56px;
+.jumbo-font56 {
+  font-size: 80px;
 }
 
-.jumbo-18 {
-  font-size: 18px;
+.jumbo-font18 {
+  font-size: 30px;
 }
 
-.jumbo-20 {
-  font-size: 20px;
+.jumbo-font20 {
+  font-size: 26px;
 }
 
 .boton {
