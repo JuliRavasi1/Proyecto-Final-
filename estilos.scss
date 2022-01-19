@@ -14,57 +14,46 @@ $fontfamily2: 'Prompt', sans-serif;
 
 /* inicio header y nav  */
 
-nav{
+.navbar{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-}
-
-nav a img{
-    margin-left: -14%;
-}
-
-nav span{
-    margin-left: -10%;
-}
-
-.navbar{
     background-color: $color1; 
     font-size: 18px;
-}
-
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-li{
-    @extend ul;
-}
-
-span{
-    color: #fff;
-    font-size: $fontsize2;
-}
-
-li a{
-    color: #fff;
-    transition: all 0.6s ease;
-}
-
-li a:hover{
-    transform: scale(1.3);
-    color: #fff;
-}
-
-.navbar-expand-lg .navbar-collapse{
-    align-items: flex-end;
-    flex-direction: row-reverse;
-    margin-right: 0;
-    padding-right: 0;
-}
+    .navbar-brand{
+    img{
+        margin-left: -14%;
+    }
+    }
+    .hola{
+        margin-left: -10%;
+        color: #fff;
+        font-size: $fontsize2;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+            .navbar-nav{
+                display: flex;
+                justify-content: space-between;
+                margin-right: 0;
+                padding-right: 0;
+                align-items: flex-end;
+            }
+            .nav-item {
+                display: flex;
+                    .nav-link{
+                        padding-right: 30px;
+                        color: #fff;
+                        transition: all 0.6s ease;
+                    &:hover{
+                            transform: scale(1.3);
+                            color: #fff;
+                            }
+                }
+                }
+            }
+        }
 
 /* fin header y nav  */
 
@@ -77,7 +66,8 @@ li a:hover{
     text-align: center;
     margin-top: 0;
     padding-top: 15px;
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* fin h2 todos */
 
@@ -89,58 +79,30 @@ li a:hover{
     align-items: center;
     padding: 1.5rem 3rem;
     background-color: $color1;
-}
-
-.copyHome{
-    align-items: center;
-    color: #fff;
-    padding-top: 2%;
-}
-
-.rrssHome img{
-    width: 40px;
-    height: auto;
-    padding: 2%;
+    .copyHome{
+        align-items: center;
+        color: #fff;
+        padding-top: 2%;
+    }
+    .rrssHome{
+    a{
+    img{
+        width: 40px;
+        height: auto;
+        padding: 2%;
+    }
+    }
+    }   
 }
 
 /* fin de footer  */
 
 /* inicio index */
 
-.mainIndex{
-    height: 100%;
-}
-
-.jumbotron{
-    background-image: url(img/backgroungHome.jpg);
-    background-size: cover;
-    border-radius: 0;
-    color: #fff;
-    margin: 0;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-.jumbo-font56{
-    text-shadow: 3px 1px #000;
-    font-family: $fontfamily1;
-}
-
-.jumbo-font18{
-    text-shadow: 2px 1px #000;
-    font-style: italic;
-    font-family: $fontfamily2;
-}
-
-.jumbo-font20{
-    text-shadow: 2px 1px #000;
-    margin-bottom: 4%;
-}
-
 $text: (
-    font56: 80, 
-    font18: 30,
-    font20: 26,
+    font56: 56, 
+    font18: 18,
+    font20: 20,
 );
 
 @each $font, $size in $text{
@@ -149,23 +111,64 @@ $text: (
     }
 }
 
-.boton{
-    color: white;
-    font-size: $fontsize2;
-    background-color: black;
-    border: none;
-    border-radius: 0;
-    text-decoration: none;
-    padding: 1%;
-    text-transform: uppercase;
+body{
+    .mainIndex{
+        height: 100%;
+        .jumbotron{
+            background-image: url(img/backgroungHome.jpg);
+            background-size: cover;
+            border-radius: 0;
+            color: #fff;
+            margin: 0;
+            padding-top: 10%;
+            padding-bottom: 10%;
+            .jumbo-font56{
+                text-shadow: 2px 1px 10px #000;
+                font-family: $fontfamily1;
+            }
+            .jumbo-font18{
+                text-shadow: 2px 1px 6px #000;
+                font-style: italic;
+                font-family: $fontfamily2;
+            }
+            .jumbo-font20{
+                text-shadow: 2px 1px #000;
+                margin-bottom: 4%;
+            }
+            .boton{
+                color: white;
+                font-size: $fontsize2;
+                background-color: black;
+                border: none;
+                border-radius: 0;
+                text-decoration: none;
+                padding: 1%;
+                text-transform: uppercase;
+            }
+            .boton:hover{
+                background-color: rgba(0, 0, 0, 0.56);
+                border: none;
+                text-decoration: none;
+                color: #fff;
+            }
+            .boton:focus{
+                border-color: #fff;
+                box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+                background-color: rgba(0, 0, 0, 0.56);
+            }
+        }
+    }
 }
 
-.boton:hover{
-    background-color: rgba(0, 0, 0, 0.56);
-    border: none;
-    text-decoration: none;
-    color: #fff;
-}
+
+
+
+
+
+
+
+
+
 
 .boton:focus{
     border-color: #fff;

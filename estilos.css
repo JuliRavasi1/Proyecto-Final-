@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Prompt:wght@200;600&display=swap");
 /* inicio header y nav  */
-nav {
+.navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,60 +11,57 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-nav a img {
-  margin-left: -14%;
-}
-
-nav span {
-  margin-left: -10%;
-}
-
-.navbar {
   background-color: #73261F;
   font-size: 18px;
 }
 
-ul, li {
+.navbar .navbar-brand img {
+  margin-left: -14%;
+}
+
+.navbar .hola {
+  margin-left: -10%;
+  color: #fff;
+  font-size: 22px;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar .navbar-collapse .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 0;
+  padding-right: 0;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
 
-span {
-  color: #fff;
-  font-size: 22px;
+.navbar .navbar-collapse .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-li a {
+.navbar .navbar-collapse .nav-item .nav-link {
+  padding-right: 30px;
   color: #fff;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
 
-li a:hover {
+.navbar .navbar-collapse .nav-item .nav-link:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   color: #fff;
-}
-
-.navbar-expand-lg .navbar-collapse {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  margin-right: 0;
-  padding-right: 0;
 }
 
 /* fin header y nav  */
@@ -95,7 +92,7 @@ li a:hover {
   background-color: #73261F;
 }
 
-.copyHome {
+.footerHome .copyHome {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -103,7 +100,7 @@ li a:hover {
   padding-top: 2%;
 }
 
-.rrssHome img {
+.footerHome .rrssHome a img {
   width: 40px;
   height: auto;
   padding: 2%;
@@ -111,11 +108,23 @@ li a:hover {
 
 /* fin de footer  */
 /* inicio index */
-.mainIndex, .mainAdv, .trip__main, .joinus__main, .aboutMain, .main__amst {
+.jumbo-font56 {
+  font-size: 56px;
+}
+
+.jumbo-font18 {
+  font-size: 18px;
+}
+
+.jumbo-font20 {
+  font-size: 20px;
+}
+
+body .mainIndex, body .mainAdv, body .trip__main, body .joinus__main, body .aboutMain, body .main__amst {
   height: 100%;
 }
 
-.jumbotron {
+body .mainIndex .jumbotron, body .mainAdv .jumbotron, body .trip__main .jumbotron, body .joinus__main .jumbotron, body .aboutMain .jumbotron, body .main__amst .jumbotron {
   background-image: url(img/backgroungHome.jpg);
   background-size: cover;
   border-radius: 0;
@@ -125,35 +134,23 @@ li a:hover {
   padding-bottom: 10%;
 }
 
-.jumbo-font56 {
-  text-shadow: 3px 1px #000;
+body .mainIndex .jumbotron .jumbo-font56, body .mainAdv .jumbotron .jumbo-font56, body .trip__main .jumbotron .jumbo-font56, body .joinus__main .jumbotron .jumbo-font56, body .aboutMain .jumbotron .jumbo-font56, body .main__amst .jumbotron .jumbo-font56 {
+  text-shadow: 2px 1px 10px #000;
   font-family: "Montserrat", sans-serif;
 }
 
-.jumbo-font18 {
-  text-shadow: 2px 1px #000;
+body .mainIndex .jumbotron .jumbo-font18, body .mainAdv .jumbotron .jumbo-font18, body .trip__main .jumbotron .jumbo-font18, body .joinus__main .jumbotron .jumbo-font18, body .aboutMain .jumbotron .jumbo-font18, body .main__amst .jumbotron .jumbo-font18 {
+  text-shadow: 2px 1px 6px #000;
   font-style: italic;
   font-family: "Prompt", sans-serif;
 }
 
-.jumbo-font20 {
+body .mainIndex .jumbotron .jumbo-font20, body .mainAdv .jumbotron .jumbo-font20, body .trip__main .jumbotron .jumbo-font20, body .joinus__main .jumbotron .jumbo-font20, body .aboutMain .jumbotron .jumbo-font20, body .main__amst .jumbotron .jumbo-font20 {
   text-shadow: 2px 1px #000;
   margin-bottom: 4%;
 }
 
-.jumbo-font56 {
-  font-size: 80px;
-}
-
-.jumbo-font18 {
-  font-size: 30px;
-}
-
-.jumbo-font20 {
-  font-size: 26px;
-}
-
-.boton {
+body .mainIndex .jumbotron .boton, body .mainAdv .jumbotron .boton, body .trip__main .jumbotron .boton, body .joinus__main .jumbotron .boton, body .aboutMain .jumbotron .boton, body .main__amst .jumbotron .boton {
   color: white;
   font-size: 22px;
   background-color: black;
@@ -164,11 +161,18 @@ li a:hover {
   text-transform: uppercase;
 }
 
-.boton:hover {
+body .mainIndex .jumbotron .boton:hover, body .mainAdv .jumbotron .boton:hover, body .trip__main .jumbotron .boton:hover, body .joinus__main .jumbotron .boton:hover, body .aboutMain .jumbotron .boton:hover, body .main__amst .jumbotron .boton:hover {
   background-color: rgba(0, 0, 0, 0.56);
   border: none;
   text-decoration: none;
   color: #fff;
+}
+
+body .mainIndex .jumbotron .boton:focus, body .mainAdv .jumbotron .boton:focus, body .trip__main .jumbotron .boton:focus, body .joinus__main .jumbotron .boton:focus, body .aboutMain .jumbotron .boton:focus, body .main__amst .jumbotron .boton:focus {
+  border-color: #fff;
+  -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+          box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+  background-color: rgba(0, 0, 0, 0.56);
 }
 
 .boton:focus {
