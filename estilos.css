@@ -125,7 +125,7 @@ body .mainIndex, body .mainAdv, body .trip__main, body .joinus__main, body .abou
 }
 
 body .mainIndex .jumbotron, body .mainAdv .jumbotron, body .trip__main .jumbotron, body .joinus__main .jumbotron, body .aboutMain .jumbotron, body .main__amst .jumbotron {
-  background-image: url(img/backgroungHome.jpg);
+  background-image: url(img/backgroungHome-1.jpg);
   background-size: cover;
   border-radius: 0;
   color: #fff;
@@ -752,63 +752,70 @@ fieldset {
   background-color: #686565;
 }
 
-.main__amst h1 {
-  padding-bottom: 2%;
-}
-
 #botonAmst {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   margin-left: 2%;
 }
 
 #botonAmst:hover {
+  color: rgba(0, 0, 0, 0.616);
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.747);
 }
 
-.row {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 3%;
-  text-transform: uppercase;
+.flex__amst {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .img__form {
-  width: 40%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   text-align: center;
-}
-
-.img__form img {
-  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.616);
-          box-shadow: 3px 3px rgba(0, 0, 0, 0.616);
-  width: 250px;
+  margin-top: 10%;
 }
 
 .h1__form {
-  font-size: 1.125rem;
-  font-family: 'Prompt', sans-serif;
+  font-size: 22px;
   text-transform: uppercase;
-  font-weight: bold;
+}
+
+#actividadesAmst {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  padding: 2%;
+}
+
+#actividadesAmst h1 {
+  font-size: 20px;
 }
 
 .formulario__amst {
-  margin-top: 5%;
-  width: 30%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
   color: #fff;
+  margin-top: 12%;
+  margin-left: 5%;
+  width: 80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -816,77 +823,18 @@ fieldset {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-}
-
-.contenedor__amst {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 3%;
 }
 
 .genero label {
   display: block;
-  margin-bottom: 2%;
 }
 
-.genero fieldset {
-  margin-left: 4%;
-}
-
-form {
-  width: 100%;
-}
-
-.main__amst p {
+#Amst {
   text-align: center;
+  margin-top: 2%;
   color: #fff;
-  margin: 0;
-  font-family: 'Prompt', sans-serif;
-  padding: 1%;
-  font-size: 20px;
-}
-
-@media (min-width: 320px) and (max-width: 575px) {
-  .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .main__amst h1 {
-    text-align: center;
-  }
-  .img__form img {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  .formulario__amst {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-    margin-left: 5px;
-  }
-  .main__amst p {
-    font-size: 16px;
-  }
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .mainInfo {
