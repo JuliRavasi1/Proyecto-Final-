@@ -123,16 +123,15 @@ body{
             padding-top: 10%;
             padding-bottom: 10%;
             .jumbo-font56{
-                text-shadow: 2px 1px 10px #000;
+                text-shadow: 2px 1px 12px #000;
                 font-family: $fontfamily1;
+                font-weight: bold;
             }
             .jumbo-font18{
-                text-shadow: 2px 1px 6px #000;
-                font-style: italic;
-                font-family: $fontfamily2;
+                text-shadow: 2px 1px 10px #000;
             }
             .jumbo-font20{
-                text-shadow: 2px 1px #000;
+                text-shadow: 2px 1px 8px  #000;
                 margin-bottom: 4%;
             }
             .boton{
@@ -694,7 +693,7 @@ fieldset{
 
 /* fin de medias generales */
 
-/* join us amsterdam */
+/* join us destinos */
 
 .main__amst{
     background-color: $color2;
@@ -705,12 +704,26 @@ fieldset{
     padding-bottom: 2%;
 }
 
+#botonAmst{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+#botonAmst:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+}
+
 .row{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 3%;
+    text-transform: uppercase;
 }
 
 .img__form{

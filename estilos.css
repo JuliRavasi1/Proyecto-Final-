@@ -135,18 +135,17 @@ body .mainIndex .jumbotron, body .mainAdv .jumbotron, body .trip__main .jumbotro
 }
 
 body .mainIndex .jumbotron .jumbo-font56, body .mainAdv .jumbotron .jumbo-font56, body .trip__main .jumbotron .jumbo-font56, body .joinus__main .jumbotron .jumbo-font56, body .aboutMain .jumbotron .jumbo-font56, body .main__amst .jumbotron .jumbo-font56 {
-  text-shadow: 2px 1px 10px #000;
+  text-shadow: 2px 1px 12px #000;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 body .mainIndex .jumbotron .jumbo-font18, body .mainAdv .jumbotron .jumbo-font18, body .trip__main .jumbotron .jumbo-font18, body .joinus__main .jumbotron .jumbo-font18, body .aboutMain .jumbotron .jumbo-font18, body .main__amst .jumbotron .jumbo-font18 {
-  text-shadow: 2px 1px 6px #000;
-  font-style: italic;
-  font-family: "Prompt", sans-serif;
+  text-shadow: 2px 1px 10px #000;
 }
 
 body .mainIndex .jumbotron .jumbo-font20, body .mainAdv .jumbotron .jumbo-font20, body .trip__main .jumbotron .jumbo-font20, body .joinus__main .jumbotron .jumbo-font20, body .aboutMain .jumbotron .jumbo-font20, body .main__amst .jumbotron .jumbo-font20 {
-  text-shadow: 2px 1px #000;
+  text-shadow: 2px 1px 8px  #000;
   margin-bottom: 4%;
 }
 
@@ -748,13 +747,25 @@ fieldset {
 }
 
 /* fin de medias generales */
-/* join us amsterdam */
+/* join us destinos */
 .main__amst {
   background-color: #686565;
 }
 
 .main__amst h1 {
   padding-bottom: 2%;
+}
+
+#botonAmst {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 2%;
+}
+
+#botonAmst:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.747);
 }
 
 .row {
@@ -772,6 +783,8 @@ fieldset {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 3%;
+  text-transform: uppercase;
 }
 
 .img__form {
