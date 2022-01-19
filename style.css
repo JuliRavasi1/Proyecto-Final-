@@ -3,7 +3,7 @@
 .navbar {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #73261F;
   font-size: 18px;
@@ -132,12 +132,21 @@ body .mainIndex .jumbotron .boton:focus, body .main__amst .jumbotron .boton:focu
   background-color: rgba(0, 0, 0, 0.56);
 }
 
-.boton:focus {
-  border-color: #fff;
-  box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-  background-color: rgba(0, 0, 0, 0.56);
+@media (min-width: 768px) and (max-width: 867px) {
+  .navbar .navbar-collapse .nav-item .nav-link {
+    padding: 5px;
+  }
 }
+@media (max-width: 388px) {
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
 
+  .navbar .hola {
+    font-size: 16px;
+  }
+}
 /* fin index */
 /* inicio de adventures */
 .mainAdv {
@@ -582,15 +591,6 @@ fieldset {
     font-size: 10px;
     padding: 1%;
     padding-top: 3%;
-  }
-
-  nav a img {
-    width: 70px;
-    height: auto;
-  }
-
-  nav span {
-    font-size: 12px;
   }
 
   .display-4 {
