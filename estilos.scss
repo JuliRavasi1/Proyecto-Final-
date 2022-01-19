@@ -3,7 +3,7 @@
 //variables
 
 $color1: #73261F;
-$color2: #686565;
+$color2: #969696;
 
 $fontsize1: 18px;
 $fontsize2: 22px;
@@ -189,7 +189,7 @@ body{
 }
 
 .adventuresText-1{
-    color: #fff;
+    color: #000;
     text-align: center;
     margin-bottom: 2%;
     font-family: 'Prompt', sans-serif;
@@ -225,7 +225,7 @@ body{
 .gallery__title{
     font-size: 1rem;
     position: absolute;
-    color: #fff;
+    color: #000;
     font-family: 'Prompt', sans-serif;
     width: 100%;
     margin: 0;
@@ -348,7 +348,7 @@ body{
 }
 
 #terms{ 
-    color: white;
+    color: #000;
     align-items: center;
     font-size: clamp(12px, 3em, 1rem);
     text-align: center;
@@ -387,78 +387,6 @@ body{
 
 /* fin trips */
 
-/* inicio join us */
-.joinus__main{
-    background-color: $color2;
-    @extend .mainIndex;
-}
-
-.contenedorForm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#formJoin{
-    width: 50%;
-}
-
-.form-group label{
-    color: #fff;
-}
-
-.form-control:focus{
-    border-color: #fff;
-    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-    background-color: #fff;
-}
-
-fieldset{
-    flex-direction: column;
-    margin-top: 2%;
-    border: 2px solid #fff;
-    text-align: center;
-    align-items: center;
-    justify-content: center; 
-    margin-bottom: 6%;
-    color: #fff;
-}
-
-#genero label{
-    display: block;
-}
-
-.botonesA{
-    margin-top: 5%;
-    text-align: center;
-    color: #fff;
-}
-
-.btn{
-    background-color: #000;
-    color: #fff;
-    border-radius: 0;
-    border: none;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    width: auto;
-}
-
-.btn:hover{
-    background-color: rgba(0, 0, 0, 0.562);
-    border: none; 
-    color: #fff;
-}
-
-.btn:focus{
-    border-color: #fff;
-    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
-    background-color: #000;
-}
-
-/* fin de join us */
-
 /* inicio de about us  */
 
 .aboutMain{
@@ -486,6 +414,7 @@ fieldset{
 }
 
 .media-body{
+    color: #000;
     width: 50%;
     text-align: center;
     align-items: center;
@@ -496,7 +425,7 @@ fieldset{
 .media h2{
     font-size: 1.25rem;
     font-style: italic;
-    text-shadow: 2px 2px black;
+    color: #fff;
 }
 
 @media (min-width:844px) and (max-width: 1190px){
@@ -564,6 +493,10 @@ fieldset{
     border: 5px solid #73261f5b;
     border-radius: 5px;
     padding: 1%;
+}
+
+.test1 p{
+    color: #000;
 }
 
 .test1 img{
@@ -700,6 +633,39 @@ fieldset{
     @extend .mainIndex;
 }
 
+.btn{
+        background-color: #000;
+        color: #fff;
+        border-radius: 0;
+        border: none;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: auto;
+    }
+    
+    .btn:hover{
+        background-color: rgba(0, 0, 0, 0.562);
+        border: none; 
+        color: #fff;
+    }
+    
+    .btn:focus{
+        border-color: #fff;
+        box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+        background-color: #000;
+    }
+
+    fieldset{
+            flex-direction: column;
+            margin-top: 2%;
+            border: 2px solid #fff;
+            text-align: center;
+            align-items: center;
+            justify-content: center; 
+            margin-bottom: 6%;
+            color: #fff;
+        }
+
 #botonAmst{
     color: #fff;
     font-size: 18px;
@@ -725,6 +691,7 @@ fieldset{
 }
 
 .h1__form{
+    color: #fff;
     font-size: 22px;
     text-transform: uppercase;
 }
@@ -741,6 +708,11 @@ fieldset{
 
 #actividadesAmst h1{
     font-size: 20px;
+    color: #fff;
+}
+
+#actividadesAmst p{
+    color: #000;
 }
 
 .formulario__amst{
