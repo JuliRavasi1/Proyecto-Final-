@@ -745,5 +745,56 @@ fieldset{
 
 .mainInfo{
     background-color: $color2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
+.titulosFaq{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: $color2;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.acordeon{
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.65);
+}
+
+section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: center;
+    margin: 0;
+    background-color: #73261f5b;
+    transition: all .4s ease;
+}
+
+section a:hover{
+    text-decoration: none;
+    color: #000;
+    transform: scale(1.1);
+    transition: all .8s ease;
+}
+
+section a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #000;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+section:target p{
+    padding: 130px;
+    padding-top: 2%;
+}
