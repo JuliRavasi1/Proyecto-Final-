@@ -64,6 +64,22 @@
   color: #fff;
 }
 
+@media (min-width: 768px) and (max-width: 867px) {
+  .navbar .navbar-collapse .nav-item .nav-link {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 388px) {
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+  .navbar .hola {
+    font-size: 16px;
+  }
+}
+
 /* fin header y nav  */
 /* h2 todos */
 .titulosPag {
@@ -104,6 +120,50 @@
   width: 40px;
   height: auto;
   padding: 2%;
+}
+
+@media (min-width: 428px) and (max-width: 620px) {
+  .copyHome {
+    font-size: 12px;
+  }
+  .footerHome .rrssHome a img {
+    width: 30px;
+    height: auto;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 427px) {
+  .footerHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: #73261F;
+  }
+  .copyHome {
+    font-size: 14px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    padding-top: 2%;
+  }
+  .footerHome .rrssHome a img {
+    width: 30px;
+    height: auto;
+    padding: 2%;
+  }
 }
 
 /* fin de footer  */
@@ -174,19 +234,9 @@ body .mainIndex .jumbotron .boton:focus, body .mainAdv .jumbotron .boton:focus, 
   background-color: rgba(0, 0, 0, 0.56);
 }
 
-@media (min-width: 768px) and (max-width: 867px) {
-  .navbar .navbar-collapse .nav-item .nav-link {
-    padding: 5px;
-  }
-}
-
-@media (max-width: 388px) {
-  .navbar-brand img {
-    width: 120px;
-    height: auto;
-  }
-  .navbar .hola {
-    font-size: 16px;
+@media (min-width: 320px) and (max-width: 391px) {
+  .display-4 {
+    font-size: 26px;
   }
 }
 
@@ -598,72 +648,6 @@ body .mainIndex .jumbotron .boton:focus, body .mainAdv .jumbotron .boton:focus, 
 }
 
 /* fin about us */
-/* inicio medias generales */
-@media (min-width: 700px) and (max-width: 940px) {
-  .rrssHome img {
-    width: 35;
-    height: auto;
-    padding: 1%;
-  }
-}
-
-@media (min-width: 500px) and (max-width: 699px) {
-  .rrssHome img {
-    width: 30px;
-    height: auto;
-    padding: 1%;
-  }
-}
-
-@media (min-width: 392px) and (max-width: 499px) {
-  .rrssHome img {
-    width: 30px;
-    height: auto;
-    padding: 1%;
-  }
-  .copyHome {
-    width: 50%;
-    text-align: left;
-    font-size: 10px;
-    padding: 2%;
-    padding-top: 3%;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 391px) {
-  .rrssHome img {
-    width: 20px;
-    height: auto;
-    padding: 1%;
-  }
-  .copyHome {
-    width: 50%;
-    text-align: left;
-    font-size: 10px;
-    padding: 1%;
-    padding-top: 3%;
-  }
-  .display-4 {
-    font-size: 26px;
-  }
-  .texto {
-    padding-bottom: 20%;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 385px) {
-  .copyHome {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 327px) {
-  .copyHome {
-    font-size: 8px;
-  }
-}
-
-/* fin de medias generales */
 /* join us destinos */
 .main__amst {
   background-color: #969696;
@@ -693,6 +677,9 @@ body .mainIndex .jumbotron .boton:focus, body .mainAdv .jumbotron .boton:focus, 
 }
 
 fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -760,7 +747,7 @@ fieldset {
   padding: 2%;
 }
 
-#actividadesAmst h1 {
+#actividadesAmst h2 {
   font-size: 20px;
   color: #fff;
 }
@@ -799,6 +786,37 @@ fieldset {
   color: #fff;
   padding-bottom: 5px;
   margin-bottom: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .flex__amst {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formulario__amst {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    margin: 0;
+  }
 }
 
 .mainInfo {
@@ -865,5 +883,38 @@ section a {
 section:target p {
   padding: 130px;
   padding-top: 2%;
+}
+
+@media (min-width: 420px) and (max-width: 620px) {
+  .acordeon {
+    width: 400px;
+  }
+  section p {
+    width: 100%;
+  }
+  section:target p {
+    padding: 130px;
+    padding-top: 10px;
+  }
+  .mainInfo {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 419px) {
+  .acordeon {
+    width: 300px;
+  }
+  section a:hover {
+    text-decoration: none;
+    color: #000;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: all .10s ease;
+    transition: all .10s ease;
+  }
+  .mainInfo {
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
