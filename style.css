@@ -717,7 +717,7 @@ section:target p {
   }
 
   section:target p {
-    padding: 130px;
+    padding: 130px 10px;
     padding-top: 10px;
   }
 
@@ -728,6 +728,11 @@ section:target p {
 @media (min-width: 320px) and (max-width: 419px) {
   .acordeon {
     width: 300px;
+  }
+
+  section:target p {
+    padding: 130px 10px;
+    padding-top: 10px;
   }
 
   section a:hover {
