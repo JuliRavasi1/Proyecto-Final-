@@ -320,8 +320,8 @@ body{
 
 /* inicio trips */
 
-@mixin cards ($format, $wrap, $flow) {
-    overflow: $flow;
+@mixin cards ($format, $wrap) {
+    // overflow: $flow;
     flex-wrap: $wrap;
     display: $format;
 }
@@ -339,7 +339,7 @@ body{
         font-family: 'Montserrat', sans-serif;
     }
     #cards{
-        @include cards(flex, wrap, scroll);
+        @include cards(flex, wrap);
         width: 100%;
         max-width: 1400px;
         height: 100%;
@@ -475,13 +475,12 @@ body{
         align-items: center;
         column-gap: 2%;
         .test1{
-            // width: 20%;
             border: 5px solid #73261f5b;
             border-radius: 5px;
             padding: 1%;
             img{
-                width: 90px;
-                height: 90px;
+                width: 110px;
+                height: 110px;
                 margin-bottom: 15%
             }
         }
