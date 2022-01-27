@@ -76,10 +76,14 @@ $fontfamily2: 'Prompt', sans-serif;
 /* h2 todos */
 
 .titulosPag{
+    text: {
+        transform: uppercase; 
+        align: center;
+    }
     font-size: 2rem;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     color: #fff;
-    text-align: center;
+    // text-align: center;
     margin-top: 0;
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -165,17 +169,23 @@ body{
     .mainIndex{
         height: 100%;
         .jumbotron{
-            background-image: url(img/backgroungHome-1.jpg);
-            background-size: cover;
+            background: {
+                image: url(img/backgroungHome-1.jpg);
+                size: cover;
+            }
             border-radius: 0;
             color: #fff;
             margin: 0;
-            padding-top: 10%;
-            padding-bottom: 10%;
+            padding: {
+                top:10%;
+                bottom: 10%;
+            }
             .jumbo-font56{
                 text-shadow: 2px 1px 12px #000;
-                font-family: $fontfamily1;
-                font-weight: bold;
+                font: {
+                    family: $fontfamily1;
+                    weight: bold;
+                }
             }
             .jumbo-font18{
                 text-shadow: 2px 1px 10px #000;
@@ -190,10 +200,13 @@ body{
                 background-color: black;
                 border: none;
                 border-radius: 0;
-                text-decoration: none;
                 padding: 1%;
-                text-transform: uppercase;
+                text: {
+                    decoration: none;
+                    transform: uppercase;
+                }
             }
+        }
             .boton:hover{
                 background-color: rgba(0, 0, 0, 0.56);
                 border: none;
@@ -205,9 +218,9 @@ body{
                 box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
                 background-color: rgba(0, 0, 0, 0.56);
             }
-        }
     }
 }
+
 
 @media (min-width: 320px) and (max-width: 391px){
     .display-4{
@@ -228,8 +241,10 @@ body{
     color: #000;
     text-align: center;
     margin-bottom: 2%;
-    font-family: 'Prompt', sans-serif;
-    font-size: 18px;
+    font: {
+        family: 'Prompt', sans-serif;
+        size: 18px;
+    }
 } 
 
 .adventuresText-2{
@@ -281,8 +296,10 @@ body{
     font-family: 'Prompt', sans-serif;
     width: 100%;
     margin: 0;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: {
+        bottom: 5px;
+        top: 5px;
+    }
 }
 
 @media (min-width: 320px) and (max-width:424px){
@@ -321,7 +338,6 @@ body{
 /* inicio trips */
 
 @mixin cards ($format, $wrap) {
-    // overflow: $flow;
     flex-wrap: $wrap;
     display: $format;
 }
@@ -331,9 +347,11 @@ body{
     @extend .mainIndex;
     .titulosPag{
         font-size: 2rem;
-        text-transform: uppercase;
+        text: {
+            transform: uppercase;
+            align: center;
+        }
         color: #fff;
-        text-align: center;
         margin-top: 0;
         padding-top: 15px;
         font-family: 'Montserrat', sans-serif;
@@ -362,8 +380,10 @@ body{
             }
             h2{
                 color: white;
-                font-size: 2.25rem;
-                font-family: serif;
+                font: {
+                    size: 2.25rem;
+                    family: serif;
+                }
                 padding-top: 8px;
             }
             p{
@@ -372,16 +392,20 @@ body{
             .btnT{
                 text-decoration: none;
                 background-color: black;
-                padding-left: 5%;
-                padding-right: 5%;
-                padding-top: 2%;
-                padding-bottom: 2%;
+                padding: {
+                    left: 5%;
+                    right: 5%;
+                    top: 2%;
+                    bottom: 2%;
+                }
                 color: #fff;
-                border-radius: 0;
                 border: none;
-                text-align: center;
+                border-radius: 0;
+                text: {
+                    align: center;
+                    transform: uppercase;
+                }
                 font-size: 20px;
-                text-transform: uppercase;
             }
             .btnT:hover{
                 text-decoration: none;
@@ -406,8 +430,10 @@ body{
         align-items: center;
         font-size: clamp(12px, 3em, 1rem);
         text-align: center;
-        margin-top: 5%;
-        margin-bottom: 0%;
+        margin: {
+            top: 5%;
+            bottom: 0%;
+        }
         padding-bottom: 1%;
     } 
 }
@@ -422,9 +448,11 @@ body{
     @extend .mainIndex;
     .titulosPag{
         font-size: 2rem;
-        text-transform: uppercase;
+        text: {
+            transform: uppercase;
+            align: center;
+        }
         color: #fff;
-        text-align: center;
         margin-top: 0;
         padding-top: 15px;
         font-family: 'Montserrat', sans-serif;
@@ -448,8 +476,10 @@ body{
             justify-content: center;
             font-size: 20px;
             h2{
-                font-size: 1.25rem;
-                font-style: italic;
+                font: {
+                    size: 1.25rem;
+                    style: italic;
+                }
                 color: #fff;
                 padding-bottom: 2%;
             }
@@ -459,11 +489,13 @@ body{
         width: 90%;
         text-align: center;
         background-color: #73261F;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 5%;
+        margin: {
+            left: 5%;
+            right: 5%;
+            top: 5%;
+            bottom: 2%;
+        }
         text-transform: uppercase;
-        margin-bottom: 2%;
         font-size: 1.5rem;
     }
     .testimoniosS{
@@ -632,8 +664,10 @@ body{
             grid-column: 1/2;
             grid-row: 2/3;
             text-align: center;
-            margin-top: 5%;
-            margin-left: 10%;
+            margin: {
+                top: 5%;
+                left: 10%;
+            }
             width: 80%;
             padding: 2%;
             h2{
@@ -648,8 +682,10 @@ body{
             grid-column: 2/3;
             grid-row: 1/3;
             color: #fff;
-            margin-top: 12%;
-            margin-left: 5%;
+            margin: {
+                top: 12%;
+                left: 5%;
+            }
             width: 80%;
             align-items: center;
             justify-content: center;
@@ -657,12 +693,14 @@ body{
             fieldset{
                 display: flex;
                 flex-direction: column;
-                margin-top: 2%;
+                margin: {
+                    bottom: 6%;
+                    top: 2%;
+                }
                 border: 2px solid #fff;
                 text-align: center;
                 align-items: center;
                 justify-content: center; 
-                margin-bottom: 6%;
                 color: #fff;
                 label{
                     display: block;
@@ -671,10 +709,12 @@ body{
             .btn{
                 background-color: #000;
                 color: #fff;
+                padding: {
+                    bottom: 15px;
+                    top: 15px;
+                }
                 border-radius: 0;
                 border: none;
-                margin-bottom: 15px;
-                margin-top: 15px;
                 width: auto;
             }
             .btn:hover{
@@ -691,10 +731,12 @@ body{
     }
     #Amst{
         text-align: center;
-        margin-top: 2%;
+        margin: {
+            top: 2%;
+            bottom: 0;
+        }
         color: #fff;
         padding-bottom: 5px;
-        margin-bottom: 0;
     }
 }
 
@@ -705,13 +747,17 @@ body{
         flex-direction: column;
         .formulario__amst{
             width: 100%;
-            padding-left: 2%;
-            padding-right: 2%;
+            padding: {
+                left: 2%;
+                right: 2%;
+            }
             margin-top: 2%;
             display: flex;
             flex-direction: column;
-            align-content: center;
-            align-items: stretch;
+            align: {
+                content: center;
+                items: stretch;
+            }
             margin: 0;
         }
     }
@@ -723,9 +769,11 @@ body{
 
 .titulosFaq{
     font-size: 2rem;
-    text-transform: uppercase;
+    text: {
+        transform: uppercase;
+        align: center;
+    }
     color: #fff;
-    text-align: center;
     background-color: $color2;
     padding-top: 15px;
     margin: 0;
@@ -742,9 +790,11 @@ body{
         background-color: #fff;
         box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.65);
         section a{
-            text-decoration: none;
+            text: {
+                decoration: none; 
+                align: center;
+            }
             display: block;
-            text-align: center;
             color: #000;
             padding: 10px;
             background-color: #fff;
