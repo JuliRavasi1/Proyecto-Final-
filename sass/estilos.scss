@@ -81,9 +81,7 @@ $fontfamily2: 'Prompt', sans-serif;
         align: center;
     }
     font-size: 2rem;
-    // text-transform: uppercase;
     color: #fff;
-    // text-align: center;
     margin-top: 0;
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -170,7 +168,7 @@ body{
         height: 100%;
         .jumbotron{
             background: {
-                image: url(img/backgroungHome-1.jpg);
+                image: url(../img/backgroungHome-1.jpg);
                 size: cover;
             }
             border-radius: 0;

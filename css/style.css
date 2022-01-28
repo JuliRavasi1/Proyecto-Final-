@@ -138,7 +138,7 @@ body .mainIndex, body .main__amst, body .aboutMain, body .trip__main, body .main
   height: 100%;
 }
 body .mainIndex .jumbotron, body .main__amst .jumbotron, body .aboutMain .jumbotron, body .trip__main .jumbotron, body .mainAdv .jumbotron {
-  background-image: url(img/backgroungHome-1.jpg);
+  background-image: url(../img/backgroungHome-1.jpg);
   background-size: cover;
   border-radius: 0;
   color: #fff;
