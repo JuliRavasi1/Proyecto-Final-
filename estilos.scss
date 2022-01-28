@@ -178,7 +178,7 @@ body{
             margin: 0;
             padding: {
                 top:10%;
-                bottom: 10%;
+                bottom: 30%;
             }
             .jumbo-font56{
                 text-shadow: 2px 1px 12px #000;
@@ -197,7 +197,7 @@ body{
             .boton{
                 color: white;
                 font-size: $fontsize2;
-                background-color: black;
+                background-color: black; 
                 border: none;
                 border-radius: 0;
                 padding: 1%;
@@ -224,7 +224,7 @@ body{
 
 @media (min-width: 320px) and (max-width: 391px){
     .display-4{
-        font-size: 26px;
+        font-size: 34px;
     }
 }
 
@@ -290,10 +290,13 @@ body{
 }
         
 .gallery__title{
-    font-size: 1rem;
     position: absolute;
     color: #000;
-    font-family: 'Prompt', sans-serif;
+    font: {
+        family: 'Prompt', sans-serif;
+        size: 1rem;
+        weight: bold;
+    }
     width: 100%;
     margin: 0;
     padding: {
@@ -675,6 +678,12 @@ body{
                 color: #fff;
             }
             p{
+                padding-top: 2%;
+                color: #000;
+                text-decoration: underline;
+            }
+            ul{
+                text-align: justify;
                 color: #000;
             }
         }
@@ -825,6 +834,7 @@ body{
     .mainInfo{
         height: 100vh;
         .acordeon{
+            margin-top: 2px;
             width: 400px;
             section p{
                 width: 100%;
